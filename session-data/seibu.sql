@@ -17,7 +17,6 @@ SELECT wifi_id, shop_id, area, dwell_time, date, time, hour, country, row_number
 		
 SELECT wifi_id, shop_id, dwell_time, date, time, country
 FROM k_seibu_session_201912
-GROUP BY wifi_id, shop_id, dwell_time, date, time, country;
 
 
 CREATE TABLE k_seibu_session_201912 AS

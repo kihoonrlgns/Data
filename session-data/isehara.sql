@@ -16,7 +16,6 @@ SELECT wifi_id, shop_id, area, dwell_time, date, time, hour, country, row_number
 	
 SELECT wifi_id, shop_id, area, dwell_time, date, time, country
 FROM k_isehara_202102
-GROUP BY wifi_id, shop_id, area, dwell_time, date, time, country;
 
 SELECT shop_id, date, count(DISTINCT wifi_id) cnt
 FROM k_isehara_202102

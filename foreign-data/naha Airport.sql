@@ -20,6 +20,5 @@ SELECT wifi_id, shop_id, area, dwell_time, date, time, hour, regexp_replace(coun
         AND date <= '2020-02-14'; 
         --country is not NULL
 
---抽出
 SELECT wifi_id, shop_id, area, dwell_time, date, time, country
 FROM kevin_naha_country_202002

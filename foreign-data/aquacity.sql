@@ -25,4 +25,3 @@ SELECT wifi_id, shop_id, area, dwell_time, date, time, hour, regexp_replace(coun
 SELECT shop_id, date, time, wifi_id, area, country, dwell_time
 FROM k_aquacity202101
 WHERE country not in ("ZM")
-GROUP BY shop_id, date, time, wifi_id, area, country, dwell_time;

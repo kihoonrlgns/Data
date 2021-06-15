@@ -20,7 +20,7 @@ SELECT wifi_id, shop_id, area, dwell_time, date, time, country
 FROM kevin_yomiuri_202005
 
 
-
+--- Yomiuri Table 201907 (Deny) ---
 CREATE TABLE kevin_yomiuri_201907 AS
 SELECT wifi_id, shop_id, area, dwell_time, date, time, hour, country, row_number() over () as r_no
 	FROM (SELECT wifi_id, shop_id, area, dwell_time, ts,

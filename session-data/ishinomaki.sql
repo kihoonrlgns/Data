@@ -19,7 +19,6 @@ SELECT wifi_id, shop_id, area, dwell_time, date, time, hour, country, row_number
 	
 SELECT wifi_id, shop_id, area, dwell_time, date, time, country
 FROM kevin_ishinomaki_20210228
-GROUP BY wifi_id, shop_id, area, dwell_time, date, time, country;
 
 SELECT wifi_id, shop_id, area, dwell_time, date, time, country
 FROM kevin_ishinomaki_201908
